@@ -1,5 +1,5 @@
 # Screenshot
-!Screen shot](./screen-shot.png "Screenshot")
+![Screen shot](./screen-shot.png "Screenshot")
 
 
 # Getting Started with Create React App
