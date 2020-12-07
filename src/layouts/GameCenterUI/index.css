@@ -1,0 +1,6 @@
+.container__inner {
+  border: 3px solid #8277ee;
+  width: 80%;
+  margin: 40px auto;
+  border-radius: 10px;
+}

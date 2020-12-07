@@ -1,0 +1,11 @@
+.container__question-wrap {
+  width: 100%;
+  padding: 20px;
+}
+
+.container__question-text {
+  color: #333;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-align: center;
+}

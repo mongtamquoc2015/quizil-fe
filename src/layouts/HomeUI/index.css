@@ -1,0 +1,29 @@
+.container {
+  max-width: 1200px;
+  width: 85%;
+  margin: 35px auto;
+  padding: 20px;
+  position: relative;
+}
+
+.container__button-link {
+  color: #fff;
+  background-color: #3097f3;
+  padding: 20px;
+  font-size: 30px;
+  cursor: pointer;
+
+  border-radius: 50px;
+  width: 300px;
+  border: none;
+  width: 200px;
+
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  transform: translateX(-50%, -50%);
+  outline: none;
+
+  margin-top: 200px;
+  text-align: center;
+}

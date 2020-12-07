@@ -1,0 +1,17 @@
+.container__answer-wrap {
+  width: 60%;
+  padding: 20px;
+  height: 100%;
+  margin: auto;
+}
+
+#container__answer-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.isSelected {
+  color: #3097f3;
+}

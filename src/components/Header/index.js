@@ -1,29 +1,30 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./index.css";
 
 function Header() {
   return (
     <header id="header">
       <h1 id="header__logo">Quizil</h1>
-      <navbar id="header__nav">
+      <nav id="header__nav">
         <ul id="header__nav-list">
-          <li class="header__nav-item">
-            <a class="header__nav-links" href="#Home">
+          <li className="header__nav-item">
+            <Link className="header__nav-links" to="/">
               Home
-            </a>
+            </Link>
           </li>
-          <li class="header__nav-item">
-            <a class="header__nav-links" href="#About">
+          <li className="header__nav-item">
+            <Link className="header__nav-links" to="/about">
               About
-            </a>
+            </Link>
           </li>
-          <li class="header__nav-item">
-            <a class="header__nav-links" href="#Contact">
+          <li className="header__nav-item">
+            <Link className="header__nav-links" to="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
-      </navbar>
+      </nav>
     </header>
   );
 }
